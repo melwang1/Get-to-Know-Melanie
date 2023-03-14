@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    
+}
+nav{
+    width:60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    padding-left: 10%;
+    font-family: 'Oswald', sans-serif;
+    color:black;
+}
+header h1{
+    width:50%;
+    font-family: 'Lora', serif;
+}
