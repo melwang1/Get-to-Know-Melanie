@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    padding:0;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -19,3 +23,81 @@ header h1{
     width:50%;
     font-family: 'Lora', serif;
 }
+
+.row{
+  display: flex;
+  gap: 5px;
+  padding:1%;
+}
+
+.img-portfolio{
+    margin-left:180px;
+    width:25vw;
+    height:25vh;
+}
+
+.img-portfolio img{
+    width:100%;
+}
+
+.content{
+    max-width: 40%;
+    text-align: left;
+    margin-left: 100px;
+    letter-spacing: 2.75px;
+    word-wrap: wrap;
+}
+
+.info{
+    width:100%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+    margin-left: 112px;
+    padding-top: 30px;
+}
+
+.projects{
+    display:flex;
+    width:100%;
+    font-size: 1.25rem;
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Kanit', sans-serif;
+    word-wrap: wrap;
+}
+
+.sunset{
+    margin-left:50px;
+    width:15vw;
+    height:15vh;
+}
+
+.sunset img{
+    width:100%;
+    border-radius: 80%;
+}
+
+header h3{
+    width:100%;
+    font-family: 'Kanit', sans-serif; 
+}
+
+.contact info{
+    width: 100%;
+    justify-content: left;
+}
+
+.github img{
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        width:100%;
+    }
+    .img-portfolio{
+        flex-wrap: wrap;
+    }
+  }
