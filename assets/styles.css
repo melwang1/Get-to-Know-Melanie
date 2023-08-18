@@ -71,7 +71,7 @@ header h1{
     word-wrap: wrap;
 }
 
-.Horiseon {
+.Eventhive {
     margin-left:50px;
     width:25vw;
     height:25vh;
@@ -79,11 +79,11 @@ header h1{
     text-align: center;
 }
 
-.Horiseon img:hover { 
+.Eventhive img:hover { 
     filter: blur(0);
 }
 
-.Horiseon img {
+.Eventhive img {
     width:100%;
     border-radius: 80%;
     margin-bottom: 20px;
